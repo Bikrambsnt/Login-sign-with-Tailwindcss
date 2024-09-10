@@ -1,8 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['*'],
+  content: ["*"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        rubik:['Rubik' ,'sans-serif'],
+        roboto:['Roboto' ,'sans-serif'],
+      }
+    },
   },
   plugins: [],
 }

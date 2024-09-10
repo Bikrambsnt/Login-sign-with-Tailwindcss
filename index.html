@@ -5,10 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login and Signup</title>
     <link rel="stylesheet" href="main.css">
+    
+    
 </head>
-<body>
+<body class="m-0 p-0 flex justify-center items-center h-screen bg-white">
+    <div class="card w-[42rem] h-[25rem] rounded-md p-8 border-2 border-black shadow-[0px_2px_5px_-1px_rgba(50,50,93,0.397),0px_1px_3px_-1px_rgba(0,0,0,0.654)] bg-white overflow-hidden relative">
+        <div class="w-[30rem] bg-white">
+            <span class="absolute -top-8 left-0 origin-right rotate-[52deg] bg-black w-[55rem] h-[42rem]"></span>
 
+            <div class="relative left-0 pr-16 py-8 flex flex-col justify-center h-[100%] w-[50%]">
+                <h1 class="text-center text-3xl font-rubik font-bold">Login</h1>
+ 
+              <form>
+                <div class="relative w-full mt-12">
+                    <label for="email" class=" left-0 absolute font-roboto font-medium text-lg">Email</label>
+                 <div class="flex border-b-2 border-black w-60">
+                    <input type="email" name="email items-center" class=" w-full cursor-text focus:outline-none pr-2">
+                    <img src="logo/email.png" class="w-5 h-5" >
+                </div>
+                </div>
 
+                <div class="relative w-full mt-12">
+                    <label for="password" class="left-0 absolute font-roboto font-medium text-lg">Password</label>
+                    <div class=" flex border-b-2 border-black w-60">
+                        <input type="password" name="password" class="w-full cursor-text focus:outline-none pr-2">
+                        <img src="logo/lock.png" class="w-5 h-5">
+                    </div>
+                </div>
 
-</body>
+                <button type="submit" class="w-full h-10 m-9 rounded-3xl border-none outline-none bg-black text-white text-center font-rubik text-lg">Login</button>
+                <div class="text-center absolute text-black text-base ml-3 bottom-5 font-roboto">
+                    <p class="inline">Don't have an account?
+                        <a href="#" class="text-blue-600 font-rubik inline">Sign Up</a>
+                    </p>
+                </div>
+                
+              </form>
+              
+            </div> 
+            <div class="absolute flex justify-center w-2/4 top-0 h-full right-0 text-right">
+                <p class="font-rubik text-5xl text-white font-bold m-20 w-[50%]">Welcome Back</p>
+                
+                
+            </div>
+        </div>
+    </div>
+    </body>
 </html>
